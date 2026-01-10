@@ -1,0 +1,13 @@
+# Ignorar binarios (el usuario debe descargarlos)
+*.exe
+*.zip
+
+# Ignorar las descargas
+*.mp3
+*.m4a
+*.webm
+*.part
+*.ytdl
+
+# Ignorar archivos del sistema
+Thumbs.db
