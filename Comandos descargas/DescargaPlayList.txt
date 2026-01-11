@@ -1,1 +1,0 @@
-yt-dlp -x --audio-format mp3 --audio-quality 0 "PEGA_AQUI_LA_URL_DE_LA_LISTA"

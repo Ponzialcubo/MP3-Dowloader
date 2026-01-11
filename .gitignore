@@ -1,13 +1,25 @@
-# Ignorar binarios (el usuario debe descargarlos)
+# --- Binarios y Herramientas ---
+# Ignoramos los .exe para no subirlos a GitHub (pesan y no es legal distribuirlos)
 *.exe
 *.zip
 
-# Ignorar las descargas
+# --- Carpetas de Salida ---
+# Ignoramos la carpeta donde se guarda la música
+Musica/
+
+# --- Archivos Multimedia Sueltos ---
+# (Por seguridad, por si alguna descarga cae fuera de la carpeta)
 *.mp3
 *.m4a
 *.webm
+*.wav
+*.flac
+
+# --- Archivos Temporales ---
+# Archivos que crea yt-dlp mientras descarga
 *.part
 *.ytdl
 
-# Ignorar archivos del sistema
+# --- Archivos del Sistema Windows ---
 Thumbs.db
+Desktop.ini
